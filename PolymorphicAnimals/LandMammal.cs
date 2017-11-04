@@ -13,7 +13,5 @@ namespace PolymorphicAnimals
 
         public int NumberOfLegs { get; set; }
 
-        //test
-
     }
 }
