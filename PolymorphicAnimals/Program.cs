@@ -47,7 +47,7 @@ namespace PolymorphicAnimals
                 if (animalObject is LandMammal)
                 {
                     LandMammal landMammal = animalObject as LandMammal;
-                    Console.WriteLine($"{landMammal.AnimalObjectID} {landMammal.Name} {landMammal.Color} {landMammal.NumberOfLegs}");
+                    Console.WriteLine($"\n{landMammal.AnimalObjectID} \n{landMammal.Name} \n{landMammal.Color} \n{landMammal.NumberOfLegs}");
                 }
             }
             Console.WriteLine();
@@ -102,24 +102,24 @@ namespace PolymorphicAnimals
             {
                 AnimalObjectID = 7,
                 Name = "Elephant",
-                Color = "Gray",
-                NumberOfLegs = 4
+                Color = "Color: Gray",
+                NumberOfLegs = "Number of Legs: 4"
             },
 
             new LandMammal()
             {
                 AnimalObjectID = 8,
                 Name = "Horse",
-                Color = "Black",
-                NumberOfLegs = 4
+                Color = "Color: Black",
+                NumberOfLegs = "Number of Legs: 4"
             },
 
             new LandMammal()
             {
                 AnimalObjectID = 9,
                 Name = "Human",
-                Color = "Mixed",
-                NumberOfLegs = "Number of Legs: "2
+                Color = "Color: Varies",
+                NumberOfLegs = "Number of Legs: 2"
             },
         };
 

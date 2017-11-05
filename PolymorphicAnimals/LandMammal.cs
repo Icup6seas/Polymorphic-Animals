@@ -11,7 +11,7 @@ namespace PolymorphicAnimals
 
         public string Color { get; set; }
 
-        public int NumberOfLegs { get; set; }
+        public string NumberOfLegs { get; set; }
 
     }
 }
